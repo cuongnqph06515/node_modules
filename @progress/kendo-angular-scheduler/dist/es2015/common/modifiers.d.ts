@@ -1,0 +1,18 @@
+/**
+ * @hidden
+ */
+export declare enum Modifiers {
+    None = 0,
+    AltKey = 1,
+    CtrlKey = 2,
+    ShiftKey = 4,
+    MetaKey = 8
+}
+/**
+ * @hidden
+ */
+export declare function withModifiers(e: KeyboardEvent, modifiers: number): boolean;
+/**
+ * @hidden
+ */
+export declare function noModifiers(e: KeyboardEvent): boolean;

@@ -1,0 +1,171 @@
+{
+  "@progress": {
+    "friendlyName": "ExcelExport"
+  },
+  "_from": "@progress/kendo-angular-excel-export@dev",
+  "_id": "@progress/kendo-angular-excel-export@4.0.1-dev.202104291100",
+  "_inBundle": false,
+  "_integrity": "sha512-MHcwssfcHHycfuDXA5y4AD7aqsg2XmLFGMp5m+QweEMdZFsgt8E0wHDB0CSDvKSp/WjGOyU1Rtm1xAckrrBtow==",
+  "_location": "/@progress/kendo-angular-excel-export",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@progress/kendo-angular-excel-export@dev",
+    "name": "@progress/kendo-angular-excel-export",
+    "escapedName": "@progress%2fkendo-angular-excel-export",
+    "scope": "@progress",
+    "rawSpec": "dev",
+    "saveSpec": null,
+    "fetchSpec": "dev"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@progress/kendo-angular-excel-export/-/kendo-angular-excel-export-4.0.1-dev.202104291100.tgz",
+  "_shasum": "74d128c3ca70e324d291ad0c37e850f8cad955e6",
+  "_spec": "@progress/kendo-angular-excel-export@dev",
+  "_where": "E:\\MIGI\\Laos Edu\\laosedu_frontend",
+  "author": {
+    "name": "Progress"
+  },
+  "bugs": {
+    "url": "https://github.com/telerik/kendo-angular"
+  },
+  "bundleDependencies": false,
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    },
+    "ghooks": {
+      "commit-msg": "validate-commit-msg"
+    },
+    "validate-commit-msg": {
+      "types": [
+        "feat",
+        "fix",
+        "docs",
+        "style",
+        "refactor",
+        "perf",
+        "test",
+        "chore",
+        "revert"
+      ],
+      "warnOnFail": false,
+      "maxSubjectLength": 100
+    }
+  },
+  "dependencies": {
+    "@progress/kendo-file-saver": "^1.0.0",
+    "@progress/kendo-ooxml": "^1.6.1",
+    "@progress/kendo-schematics": "^1.1.0",
+    "@telerik/kendo-intl": "^2.1.1",
+    "tslib": "^1.9.0"
+  },
+  "deprecated": false,
+  "description": "Kendo UI for Angular Excel Export component",
+  "devDependencies": {
+    "@angular-devkit/core": "^8.2.0",
+    "@angular-devkit/schematics": "^8.2.0",
+    "@angular/animations": "^8.2.0",
+    "@angular/common": "^8.2.0",
+    "@angular/compiler": "^8.2.0",
+    "@angular/compiler-cli": "^8.2.0",
+    "@angular/core": "^8.2.0",
+    "@angular/forms": "^8.2.0",
+    "@angular/platform-browser": "^8.2.0",
+    "@angular/platform-browser-dynamic": "^8.2.0",
+    "@angular/platform-server": "^8.2.0",
+    "@angular/router": "^8.2.0",
+    "@progress/kendo-angular-common": "^2.0.0",
+    "@progress/kendo-angular-jest-preset": "^2.0.0",
+    "@progress/kendo-angular-l10n": "^3.0.0",
+    "@progress/kendo-angular-tasks": "^18.0.2",
+    "@progress/kendo-data-query": "^1.0.5",
+    "@progress/kendo-licensing": "^1.0.2",
+    "@progress/kendo-theme-default": "^2.62.0",
+    "@telerik/semantic-prerelease": "^1.0.0",
+    "@types/jest": "^21.1.8",
+    "@types/node": "ts3.4",
+    "@types/zone.js": "0.0.27",
+    "codelyzer": "^5.0.0",
+    "core-js": "^2.2.2",
+    "cz-conventional-changelog": "^1.1.5",
+    "ghooks": "^1.0.3",
+    "gulp": "^4.0.0",
+    "jest-cli": "^21.2.1",
+    "jest-junit": "^8.0.0",
+    "rxjs": "~6.4.0",
+    "rxjs-tslint-rules": "^4.23.1",
+    "semantic-release": "^6.3.6",
+    "tslint": "^5.20.1",
+    "typescript": "~3.4.5",
+    "validate-commit-msg": "^1.1.1",
+    "zone.js": "~0.9.1"
+  },
+  "es2015": "dist/fesm2015/index.js",
+  "esm2015": "dist/es2015/index.js",
+  "esm5": "dist/es/index.js",
+  "files": [
+    "dist",
+    "schematics"
+  ],
+  "homepage": "https://www.telerik.com/kendo-angular-ui/components/",
+  "jest": {
+    "preset": "@progress/kendo-angular-jest-preset"
+  },
+  "jsdelivr": "dist/cdn/main.js",
+  "jsnext:main": "dist/es/index.js",
+  "keywords": [
+    "Kendo UI",
+    "Angular",
+    "Excel",
+    "Export"
+  ],
+  "license": "SEE LICENSE IN LICENSE.md",
+  "main": "dist/npm/index.js",
+  "module": "dist/fesm5/index.js",
+  "name": "@progress/kendo-angular-excel-export",
+  "peerDependencies": {
+    "@angular/common": "8 - 12",
+    "@angular/core": "8 - 12",
+    "@progress/kendo-angular-common": "^2.0.0",
+    "@progress/kendo-angular-l10n": "^3.0.0",
+    "@progress/kendo-licensing": "^1.0.2",
+    "rxjs": "^6.4.0"
+  },
+  "release": {
+    "debug": false,
+    "branchTags": {
+      "develop": "dev"
+    },
+    "fallbackTags": {
+      "dev": "latest"
+    },
+    "analyzeCommits": "@telerik/semantic-prerelease/analyzeCommits",
+    "generateNotes": "@telerik/semantic-prerelease/generateNotes",
+    "getLastRelease": "@telerik/semantic-prerelease/getLastRelease",
+    "verifyConditions": "@telerik/semantic-prerelease/verifyConditions",
+    "verifyRelease": "@telerik/semantic-prerelease/verifyRelease"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/telerik/kendo-angular-excel-export.git"
+  },
+  "schematics": "./schematics/collection.json",
+  "scripts": {
+    "api-check": "gulp api-check",
+    "build-package": "gulp build-package",
+    "lint": "gulp lint && gulp lint-docs",
+    "semantic-release": "semantic-release pre && semantic-prerelease publish && semantic-release post",
+    "start": "gulp start",
+    "test": "jest",
+    "test:ci": "ci-angular-test",
+    "test:watch": "jest --watch"
+  },
+  "sideEffects": true,
+  "typings": "dist/es2015/index.d.ts",
+  "unpkg": "dist/cdn/main.js",
+  "version": "4.0.1-dev.202104291100"
+}

@@ -1,0 +1,28 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var core_1 = require("@angular/core");
+var navigation_1 = require("./navigation");
+/**
+ * @hidden
+ */
+var SharedModule = /** @class */ (function () {
+    function SharedModule() {
+    }
+    SharedModule.exports = function () {
+        return [
+            navigation_1.FocusableDirective
+        ];
+    };
+    SharedModule.decorators = [
+        { type: core_1.NgModule, args: [{
+                    declarations: [
+                        navigation_1.FocusableDirective
+                    ],
+                    exports: [
+                        navigation_1.FocusableDirective
+                    ]
+                },] },
+    ];
+    return SharedModule;
+}());
+exports.SharedModule = SharedModule;

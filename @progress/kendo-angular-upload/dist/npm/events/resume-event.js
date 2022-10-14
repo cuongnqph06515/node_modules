@@ -1,0 +1,44 @@
+/**-----------------------------------------------------------------------------------------
+* Copyright © 2020 Progress Software Corporation. All rights reserved.
+* Licensed under commercial license. See LICENSE.md in the project root for more information
+*-------------------------------------------------------------------------------------------*/
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+/**
+ * Arguments for the `resume` event. The `resume` event fires when the user
+ * resumes the upload of a file that has been previously paused.
+ *
+ * ```ts-no-run
+ *  @Component({
+ *    selector: 'my-upload',
+ *    template: `
+ *    <kendo-upload
+ *      [chunkable]="true"
+ *      [saveUrl]="uploadSaveUrl"
+ *      [removeUrl]="uploadRemoveUrl"
+ *      (resume)="resumeEventHandler($event)">
+ *    </kendo-upload>
+ *    `
+ *  })
+ *  export class UploadComponent {
+ *    uploadSaveUrl = 'saveUrl'; // should represent an actual API endpoint
+ *    uploadRemoveUrl = 'removeUrl'; // should represent an actual API endpoint
+ *
+ *    resumeEventHandler(ev: ResumeEvent) {
+ *      console.log('File resumed');
+ *    }
+ *  }
+ * ```
+ *
+ */
+var ResumeEvent = /** @class */ (function () {
+    /**
+     * Constructs the event arguments for the `resume` event.
+     * @param file - The file that is going to be resumed.
+     */
+    function ResumeEvent(file) {
+        this.file = file;
+    }
+    return ResumeEvent;
+}());
+exports.ResumeEvent = ResumeEvent;

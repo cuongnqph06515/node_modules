@@ -1,0 +1,76 @@
+{
+  "_args": [
+    [
+      "@types/prosemirror-commands@1.0.3",
+      "E:\\MIGI\\Laos Edu\\laosedu_frontend"
+    ]
+  ],
+  "_from": "@types/prosemirror-commands@1.0.3",
+  "_id": "@types/prosemirror-commands@1.0.3",
+  "_inBundle": false,
+  "_integrity": "sha512-AjFCJqBvAhQ4gOzXPgUcnEZwu4jd7se7ani3dYAv8p4L+cWEPD6Pshrpp5uJDI5/pzvNXLWQ/4c2Qk4h9IML1w==",
+  "_location": "/@types/prosemirror-commands",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@types/prosemirror-commands@1.0.3",
+    "name": "@types/prosemirror-commands",
+    "escapedName": "@types%2fprosemirror-commands",
+    "scope": "@types",
+    "rawSpec": "1.0.3",
+    "saveSpec": null,
+    "fetchSpec": "1.0.3"
+  },
+  "_requiredBy": [
+    "/@progress/kendo-editor-common"
+  ],
+  "_resolved": "https://registry.npmjs.org/@types/prosemirror-commands/-/prosemirror-commands-1.0.3.tgz",
+  "_spec": "1.0.3",
+  "_where": "E:\\MIGI\\Laos Edu\\laosedu_frontend",
+  "bugs": {
+    "url": "https://github.com/DefinitelyTyped/DefinitelyTyped/issues"
+  },
+  "contributors": [
+    {
+      "name": "Bradley Ayers",
+      "url": "https://github.com/bradleyayers"
+    },
+    {
+      "name": "David Hahn",
+      "url": "https://github.com/davidka"
+    },
+    {
+      "name": "Tim Baumann",
+      "url": "https://github.com/timjb"
+    },
+    {
+      "name": "Patrick Simmelbauer",
+      "url": "https://github.com/patsimm"
+    },
+    {
+      "name": "Mike Morearty",
+      "url": "https://github.com/mmorearty"
+    }
+  ],
+  "dependencies": {
+    "@types/prosemirror-model": "*",
+    "@types/prosemirror-state": "*",
+    "@types/prosemirror-view": "*"
+  },
+  "description": "TypeScript definitions for prosemirror-commands",
+  "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped#readme",
+  "license": "MIT",
+  "main": "",
+  "name": "@types/prosemirror-commands",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+    "directory": "types/prosemirror-commands"
+  },
+  "scripts": {},
+  "typeScriptVersion": "3.0",
+  "types": "index.d.ts",
+  "typesPublisherContentHash": "7121624e443402ae2583e2ba2ef61aedea878ebfe983de1402e260a518a94441",
+  "version": "1.0.3"
+}

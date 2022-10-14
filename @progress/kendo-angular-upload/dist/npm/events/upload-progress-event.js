@@ -1,0 +1,44 @@
+/**-----------------------------------------------------------------------------------------
+* Copyright © 2020 Progress Software Corporation. All rights reserved.
+* Licensed under commercial license. See LICENSE.md in the project root for more information
+*-------------------------------------------------------------------------------------------*/
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+/**
+ * Arguments for the `uploadprogress` event. The `uploadprogress` event
+ * fires when the files are in the process of uploading.
+ *
+ * ```ts-no-run
+ *  @Component({
+ *    selector: 'my-upload',
+ *    template: `
+ *    <kendo-upload
+ *      [saveUrl]="uploadSaveUrl"
+ *      [removeUrl]="uploadRemoveUrl"
+ *      (uploadProgress)="uploadProgressEventHandler($event)">
+ *    </kendo-upload>
+ *    `
+ *  })
+ *  export class UploadComponent {
+ *    uploadSaveUrl = 'saveUrl'; // should represent an actual API endpoint
+ *    uploadRemoveUrl = 'removeUrl'; // should represent an actual API endpoint
+ *
+ *    uploadProgressEventHandler(e: UploadProgressEvent) {
+ *      console.log(e.files[0].name + ' is ' + e.percentComplete + ' uploaded');
+ *    }
+ *  }
+ * ```
+ */
+var UploadProgressEvent = /** @class */ (function () {
+    /**
+     * Constructs the event arguments for the `uploadprogress` event.
+     * @param files - The list of files that are being uploaded.
+     * @param percentComplete - The portion that has been uploaded.
+     */
+    function UploadProgressEvent(files, percentComplete) {
+        this.files = files;
+        this.percentComplete = percentComplete;
+    }
+    return UploadProgressEvent;
+}());
+exports.UploadProgressEvent = UploadProgressEvent;

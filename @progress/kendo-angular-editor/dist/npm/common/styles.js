@@ -1,0 +1,18 @@
+/**-----------------------------------------------------------------------------------------
+* Copyright © 2020 Progress Software Corporation. All rights reserved.
+* Licensed under commercial license. See LICENSE.md in the project root for more information
+*-------------------------------------------------------------------------------------------*/
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+/**
+ * @hidden
+ */
+exports.defaultStyle = "\nhtml, body {\n    margin: 0;\n    height: 100%;\n    padding: 0;\n}\n\nhtml {\n  min-height: 100%;\n}\n\nbody {\n  box-sizing: border-box;\n  position: relative;\n  padding: 8px;\n}\n\n.ProseMirror-selectednode {\n  outline: 2px solid #8cf;\n}\n\ndiv.ProseMirror {\n  position: relative;\n  min-height: 100%;\n  word-wrap: break-word;\n  white-space: pre-wrap;\n  white-space: break-spaces;\n  -webkit-font-variant-ligatures: none;\n  font-variant-ligatures: none;\n  font-feature-settings: \"liga\" 0; /* the above doesn't seem to work in Edge */\n}\n\ndiv.ProseMirror:focus {\n  outline: none;\n}\n\n.ProseMirror pre {\n  white-space: pre-wrap;\n}\n\n.ProseMirror-hideselection *::selection { background: transparent; }\n.ProseMirror-hideselection *::-moz-selection { background: transparent; }\n.ProseMirror-hideselection { caret-color: transparent; }\n\n.ProseMirror li {\n  position: relative;\n}\n\nli.ProseMirror-selectednode {\n  outline: none;\n}\n\nli.ProseMirror-selectednode:after {\n  content: \"\";\n  position: absolute;\n  left: -32px;\n  right: -2px;\n  top: -2px;\n  bottom: -2px;\n  border: 2px solid #8cf;\n  pointer-events: none;\n}\n\n.ProseMirror-gapcursor {\n  display: none;\n  pointer-events: none;\n  position: absolute;\n}\n\n.ProseMirror-gapcursor:after {\n  content: \"\";\n  display: block;\n  position: absolute;\n  top: -2px;\n  width: 20px;\n  border-top: 1px solid black;\n  animation: ProseMirror-cursor-blink 1.1s steps(2, start) infinite;\n}\n\n@keyframes ProseMirror-cursor-blink {\n  to {\n    visibility: hidden;\n  }\n}\n\n.ProseMirror-focused .ProseMirror-gapcursor {\n  display: block;\n}\n";
+/**
+ * @hidden
+ */
+exports.tablesStyles = "\n  .ProseMirror .tableWrapper {\n    overflow-x: auto;\n    margin: 1em 0;\n  }\n\n  .ProseMirror table {\n    margin: 0;\n    border-collapse: collapse;\n    table-layout: fixed;\n    width: 100%;\n    overflow: hidden;\n  }\n\n  .ProseMirror td, .ProseMirror th {\n    min-width: 1em;\n    border: 1px solid #ddd;\n    padding: 3px 5px;\n    vertical-align: top;\n    box-sizing: border-box;\n    position: relative;\n  }\n\n  .ProseMirror th {\n    font-weight: bold;\n    text-align: left;\n  }\n\n  .ProseMirror .column-resize-handle {\n    position: absolute;\n    right: -2px;\n    top: 0;\n    bottom: 0;\n    width: 4px;\n    z-index: 20;\n    background-color: #adf;\n    pointer-events: none;\n  }\n\n  .ProseMirror.resize-cursor {\n    cursor: ew-resize;\n    cursor: col-resize;\n  }\n\n  /* Give selected cells a blue overlay */\n  .ProseMirror .selectedCell:after {\n    z-index: 2;\n    position: absolute;\n    content: \"\";\n    left: 0;\n    right: 0;\n    top: 0;\n    bottom: 0;\n    background: rgba(200, 200, 255, 0.4);\n    pointer-events: none;\n  }\n";
+/**
+ * @hidden
+ */
+exports.rtlStyles = 'body { direction: rtl }';

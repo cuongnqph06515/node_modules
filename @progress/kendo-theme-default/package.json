@@ -1,0 +1,83 @@
+{
+  "_args": [
+    [
+      "@progress/kendo-theme-default@4.41.2",
+      "E:\\MIGI\\Laos Edu\\laosedu_frontend"
+    ]
+  ],
+  "_from": "@progress/kendo-theme-default@4.41.2",
+  "_id": "@progress/kendo-theme-default@4.41.2",
+  "_inBundle": false,
+  "_integrity": "sha512-UBjgz034nh59CBJjeP5k+bLwV7H+ctqj5Xp912KEEax23SWsC4OKmEsSVFMDlJWRmF4UNnDa9wjCQ1gyqUscsg==",
+  "_location": "/@progress/kendo-theme-default",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@progress/kendo-theme-default@4.41.2",
+    "name": "@progress/kendo-theme-default",
+    "escapedName": "@progress%2fkendo-theme-default",
+    "scope": "@progress",
+    "rawSpec": "4.41.2",
+    "saveSpec": null,
+    "fetchSpec": "4.41.2"
+  },
+  "_requiredBy": [
+    "/",
+    "/@progress/kendo-theme-bootstrap"
+  ],
+  "_resolved": "https://registry.npmjs.org/@progress/kendo-theme-default/-/kendo-theme-default-4.41.2.tgz",
+  "_spec": "4.41.2",
+  "_where": "E:\\MIGI\\Laos Edu\\laosedu_frontend",
+  "author": {
+    "name": "Progress"
+  },
+  "bugs": {
+    "url": "https://github.com/telerik/kendo-themes/issues/new?labels=bug,T:Default&template=bug_report.md"
+  },
+  "description": "SASS resources for the default Kendo UI theme",
+  "files": [
+    "dist/",
+    "scss/",
+    "modules/",
+    "lib/"
+  ],
+  "gitHead": "676e32fbe2dd316795f445811ed8e9de7509d1ac",
+  "homepage": "https://github.com/telerik/kendo-themes/tree/master/packages/default",
+  "kendo": {
+    "themebuilder": {
+      "swatches": {
+        "path": "lib/swatches",
+        "default": "default-main.json"
+      }
+    }
+  },
+  "keywords": [
+    "Kendo UI",
+    "Theme"
+  ],
+  "license": "Apache-2.0",
+  "main": "dist/all.css",
+  "name": "@progress/kendo-theme-default",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/telerik/kendo-themes.git",
+    "directory": "packages/default"
+  },
+  "sass": "scss/all.scss",
+  "scripts": {
+    "dart": "gulp dart",
+    "dart:flat": "gulp dart:flat",
+    "dart:swatches": "gulp dart:swatches",
+    "dart:watch": "gulp dart:watch",
+    "prepublishOnly": "echo 'no prebublish for default theme'",
+    "sass": "gulp sass",
+    "sass:flat": "gulp sass:flat",
+    "sass:swatches": "gulp sass:swatches",
+    "sass:watch": "gulp sass:watch"
+  },
+  "version": "4.41.2"
+}

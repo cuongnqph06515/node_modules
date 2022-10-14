@@ -1,0 +1,50 @@
+{
+  "_args": [
+    [
+      "@types/prosemirror-tables@0.9.1",
+      "E:\\MIGI\\Laos Edu\\laosedu_frontend"
+    ]
+  ],
+  "_from": "@types/prosemirror-tables@0.9.1",
+  "_id": "@types/prosemirror-tables@0.9.1",
+  "_inBundle": false,
+  "_integrity": "sha512-zoY1qcAC6kG4UjnaQQXuoyYQdDJMQmY9uzRKdyUppP8rWRR5/kXBHOd84CD9ZvrYUBo3uDmS20qQnc3knr2j9A==",
+  "_location": "/@types/prosemirror-tables",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@types/prosemirror-tables@0.9.1",
+    "name": "@types/prosemirror-tables",
+    "escapedName": "@types%2fprosemirror-tables",
+    "scope": "@types",
+    "rawSpec": "0.9.1",
+    "saveSpec": null,
+    "fetchSpec": "0.9.1"
+  },
+  "_requiredBy": [
+    "/@progress/kendo-editor-common"
+  ],
+  "_resolved": "https://registry.npmjs.org/@types/prosemirror-tables/-/prosemirror-tables-0.9.1.tgz",
+  "_spec": "0.9.1",
+  "_where": "E:\\MIGI\\Laos Edu\\laosedu_frontend",
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/ProseMirror/prosemirror-tables/issues"
+  },
+  "dependencies": {
+    "prosemirror-tables": "*"
+  },
+  "description": "Stub TypeScript definitions entry for prosemirror-tables, which provides its own types definitions",
+  "homepage": "https://github.com/ProseMirror/prosemirror-tables#readme",
+  "license": "MIT",
+  "main": "",
+  "name": "@types/prosemirror-tables",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ProseMirror/prosemirror-tables.git"
+  },
+  "scripts": {},
+  "typings": null,
+  "version": "0.9.1"
+}

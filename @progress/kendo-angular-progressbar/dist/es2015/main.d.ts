@@ -1,0 +1,9 @@
+export { ProgressBarComponent } from './progressbar.component';
+export { ChunkProgressBarComponent } from './chunk/chunk-progressbar.component';
+export { ProgressBarOrientation } from './types/progressbar-orientation';
+export { LabelSettings } from './types/label-settings.interface';
+export { LabelPosition } from './types/label-position';
+export { LabelFn } from './types/label-fn-type';
+export { LabelType } from './types/label-type';
+export { AnimationSettings } from './types/animation-settings.interface';
+export { ProgressBarModule } from './progressbar.module';

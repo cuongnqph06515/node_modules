@@ -1,0 +1,41 @@
+/**-----------------------------------------------------------------------------------------
+* Copyright © 2020 Progress Software Corporation. All rights reserved.
+* Licensed under commercial license. See LICENSE.md in the project root for more information
+*-------------------------------------------------------------------------------------------*/
+import { EventEmitter } from '@angular/core';
+import { UploadService } from './upload.service';
+import { Direction } from './types/direction';
+/**
+ * @hidden
+ */
+export declare class NavigationService {
+    private uploadService;
+    onActionButtonAction: EventEmitter<string>;
+    onActionButtonFocus: EventEmitter<string>;
+    onFileAction: EventEmitter<number>;
+    onFileFocus: EventEmitter<number>;
+    onTab: EventEmitter<any>;
+    onWrapperFocus: EventEmitter<any>;
+    onSelectButtonFocus: EventEmitter<any>;
+    actionButtonsVisible: boolean;
+    focused: boolean;
+    keyBindings: Object;
+    private _focusedIndex;
+    constructor(uploadService: UploadService);
+    action(event: any): Function;
+    process(event: KeyboardEvent): void;
+    computeKeys(direction: Direction): void;
+    invertKeys(direction: Direction, original: any, inverted: any): any;
+    focusSelectButton(): void;
+    handleEnter(): void;
+    handleDelete(): void;
+    handleEscape(): void;
+    handleLeft(): void;
+    handleRight(): void;
+    handleTab(shifted: boolean): void;
+    handleDown(): void;
+    handleUp(): void;
+    focusedIndex: number;
+    readonly lastFileIndex: number;
+    readonly lastIndex: number;
+}

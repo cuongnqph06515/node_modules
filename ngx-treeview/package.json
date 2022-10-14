@@ -1,0 +1,75 @@
+{
+  "_args": [
+    [
+      "ngx-treeview@10.0.2",
+      "E:\\MIGI\\Laos Edu\\laosedu_frontend"
+    ]
+  ],
+  "_from": "ngx-treeview@10.0.2",
+  "_id": "ngx-treeview@10.0.2",
+  "_inBundle": false,
+  "_integrity": "sha512-vuSaJ3mqQOsosQE8tWhyPbfNvrUYgdy+YNxUWdaAvwX+Oucwe+xqfMT6J//jx0SI1u3GqOCXZDN+XMK813Hvhw==",
+  "_location": "/ngx-treeview",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "ngx-treeview@10.0.2",
+    "name": "ngx-treeview",
+    "escapedName": "ngx-treeview",
+    "rawSpec": "10.0.2",
+    "saveSpec": null,
+    "fetchSpec": "10.0.2"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/ngx-treeview/-/ngx-treeview-10.0.2.tgz",
+  "_spec": "10.0.2",
+  "_where": "E:\\MIGI\\Laos Edu\\laosedu_frontend",
+  "author": {
+    "name": "Leo Vo",
+    "email": "leovo2708@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/leovo2708/ngx-treeview/issues"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0"
+  },
+  "description": "An Angular treeview component with checkbox",
+  "es2015": "fesm2015/ngx-treeview.js",
+  "esm2015": "esm2015/ngx-treeview.js",
+  "fesm2015": "fesm2015/ngx-treeview.js",
+  "homepage": "https://github.com/leovo2708/ngx-treeview#readme",
+  "keywords": [
+    "ng",
+    "ngx",
+    "angular",
+    "ngx-treeview",
+    "tree",
+    "treeview",
+    "tree-view",
+    "checkbox",
+    "dropdown",
+    "recursive",
+    "angular tree component"
+  ],
+  "license": "MIT",
+  "main": "bundles/ngx-treeview.umd.js",
+  "metadata": "ngx-treeview.metadata.json",
+  "module": "fesm2015/ngx-treeview.js",
+  "name": "ngx-treeview",
+  "peerDependencies": {
+    "@angular/common": "^10.0.0",
+    "@angular/core": "^10.0.0",
+    "lodash": "^4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leovo2708/ngx-treeview.git"
+  },
+  "sideEffects": false,
+  "typings": "ngx-treeview.d.ts",
+  "version": "10.0.2"
+}

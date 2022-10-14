@@ -1,0 +1,25 @@
+import { ElementRef, Renderer2 } from '@angular/core';
+import { FocusService } from './focus.service';
+import { FocusableElement } from './focusable-element.interface';
+/**
+ * @hidden
+ */
+export declare class FocusableDirective implements FocusableElement {
+    element: ElementRef;
+    private renderer;
+    private focusService;
+    /**
+     * The order of the element with respect to the other focusable elements.
+     * If multiple elements share the same value, their relative to each other order follows their position in the component tree.
+     */
+    focusIndex: number;
+    private readonly visible;
+    private readonly enabled;
+    private active;
+    constructor(element: ElementRef, renderer: Renderer2, focusService: FocusService);
+    ngOnDestroy(): void;
+    toggle(active: boolean): void;
+    canFocus(): boolean;
+    focus(): void;
+    toggleFocus(value: boolean): void;
+}

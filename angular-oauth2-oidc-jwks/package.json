@@ -1,0 +1,49 @@
+{
+  "_args": [
+    [
+      "angular-oauth2-oidc-jwks@9.0.0",
+      "E:\\MIGI\\Laos Edu\\laosedu_frontend"
+    ]
+  ],
+  "_from": "angular-oauth2-oidc-jwks@9.0.0",
+  "_id": "angular-oauth2-oidc-jwks@9.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-3hTJc7vEI/ka/nnliMcCQuDnszzL3AhGInBBbn96BO+ZOdvP/4PbEumUsDto2WRpPMPxD6HAmExwYeQWljcc5A==",
+  "_location": "/angular-oauth2-oidc-jwks",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "angular-oauth2-oidc-jwks@9.0.0",
+    "name": "angular-oauth2-oidc-jwks",
+    "escapedName": "angular-oauth2-oidc-jwks",
+    "rawSpec": "9.0.0",
+    "saveSpec": null,
+    "fetchSpec": "9.0.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/angular-oauth2-oidc-jwks/-/angular-oauth2-oidc-jwks-9.0.0.tgz",
+  "_spec": "9.0.0",
+  "_where": "E:\\MIGI\\Laos Edu\\laosedu_frontend",
+  "dependencies": {
+    "jsrsasign": "^8.0.12"
+  },
+  "description": "``JwksValidationHandler`` for ``angular-oauth2-odic``. Only needed for implicit flow.",
+  "es2015": "fesm2015/angular-oauth2-oidc-jwks.js",
+  "esm2015": "esm2015/angular-oauth2-oidc-jwks.js",
+  "esm5": "esm5/angular-oauth2-oidc-jwks.js",
+  "fesm2015": "fesm2015/angular-oauth2-oidc-jwks.js",
+  "fesm5": "fesm5/angular-oauth2-oidc-jwks.js",
+  "main": "bundles/angular-oauth2-oidc-jwks.umd.js",
+  "metadata": "angular-oauth2-oidc-jwks.metadata.json",
+  "module": "fesm5/angular-oauth2-oidc-jwks.js",
+  "name": "angular-oauth2-oidc-jwks",
+  "peerDependencies": {
+    "tslib": "^1.10.0"
+  },
+  "sideEffects": false,
+  "typings": "angular-oauth2-oidc-jwks.d.ts",
+  "version": "9.0.0"
+}
